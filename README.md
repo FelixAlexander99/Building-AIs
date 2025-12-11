@@ -49,7 +49,8 @@ code
 Bash
 python main.py
 The script will automatically detect CUDA/CPU, train the model, save the best weights to best_house_model.pth, and perform a sample inference test at the end.
-🧠 Key Learnings
+
+--- Key Learnings
 Broadcasting Logic: Addressed critical bugs regarding tensor shapes (e.g., [Batch, 1] vs [Batch]) that initially caused the model to converge on the dataset mean.
 Windows Multiprocessing: Implemented if __name__ == '__main__': guards to safely enable multi-threaded data loading on Windows environments.
 Feature Importance: Observed the massive impact of including vs. dropping geospatial data (Latitude/Longitude) on model accuracy.
