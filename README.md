@@ -5,11 +5,11 @@ An end-to-end Deep Learning regression model built from scratch using PyTorch. T
 --- Project Overview: 
 The goal of this project was to move beyond high-level APIs and understand the low-level mechanics of training neural networks. It handles real-world data challenges including categorical encoding, feature scaling, and hardware optimization.
 
---- Tech Stack & Concepts: 
-Core: Python 3.10+, PyTorch (Neural Networks, Autograd)
-Data Processing: Pandas, NumPy (Z-score normalization, One-Hot Encoding)
-Training: Custom Training Loop, Validation Splits, Checkpointing
-Hardware: CUDA (GPU) acceleration with Windows-specific multiprocessing optimizations.
+* --- Tech Stack & Concepts: 
+* Core: Python 3.10+, PyTorch (Neural Networks, Autograd)
+* Data Processing: Pandas, NumPy (Z-score normalization, One-Hot Encoding)
+* Training: Custom Training Loop, Validation Splits, Checkpointing
+* Hardware: CUDA (GPU) acceleration with Windows-specific multiprocessing optimizations.
 
 --- Key Features: 
 Custom Dataset Class: Implements a robust torch.utils.data.Dataset wrapper that handles raw CSV loading, cleaning (handling NaNs), and feature engineering on the fly.
