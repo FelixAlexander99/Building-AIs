@@ -42,14 +42,15 @@ An end-to-end Deep Learning regression model built from scratch using PyTorch. T
 * Bash
 * git clone https://github.com/yourusername/housing-price-predictor.git
 * cd housing-price-predictor
-Install dependencies:
+* Install dependencies:
 * code
 * Bash
 * pip install torch pandas numpy
-Run the training script:
+* Run the training script:
 * code
 * Bash
 * python main.py
+  
 The script will automatically detect CUDA/CPU, train the model, save the best weights to best_house_model.pth, and perform a sample inference test at the end.
 
 --- Key Learnings: 
